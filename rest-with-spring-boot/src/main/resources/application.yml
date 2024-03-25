@@ -2,8 +2,8 @@ server:
   port: 80
 cors:
   originPatterns: http://0.0.0.0:8080,https://erudio.com.br,http://0.0.0.0:3000
-file:
-  upload-dir: /home/runner/work/rest-with-spring-boot/UploadDir
+#file:
+#  upload-dir: /home/runner/work/rest-with-spring-boot/UploadDir
 security:
   jwt:
     token:
