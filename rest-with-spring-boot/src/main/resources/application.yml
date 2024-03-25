@@ -3,7 +3,7 @@ server:
 cors:
   originPatterns: http://0.0.0.0:8080,https://erudio.com.br,http://0.0.0.0:3000
 file:
-  upload-dir: /Users/marco.pegado/Documents/code/uploadDir
+  upload-dir: /home/runner/work/rest-with-spring-boot/UploadDir
 security:
   jwt:
     token:
