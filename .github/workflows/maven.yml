@@ -26,9 +26,8 @@ jobs:
 
     - name: Build Application JAR
       working-directory: ./docker/rest-with-spring-boot
-      run: |
-          - pwd 
-          - mvn clean package
+      run: mvn clean package
+
 
     - name: Docker Compose Build
       working-directory: ./docker
