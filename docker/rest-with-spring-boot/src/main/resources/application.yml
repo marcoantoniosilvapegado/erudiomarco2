@@ -1,5 +1,7 @@
 server:
   port: 80
+file:
+  upload-dir: /home/runner/work/rest_with_spring_boot/UploadDir
 cors:
   originPatterns: http://0.0.0.0:8080,https://erudio.com.br,http://0.0.0.0:3000
 security:
